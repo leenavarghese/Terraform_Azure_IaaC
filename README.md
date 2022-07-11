@@ -11,17 +11,17 @@ g. Module name (loadbalancer): One public-facing basic load balancer with both L
 h. Module name (database): One Azure DB for PostgreSQL instance. The module returns the name of the DB instance to the root module. 
 
 # TECHNOLOGY STACK 
-    * Microsoft Azure
-    * Terraform
+* Microsoft Azure
+* Terraform
 
 # INSTALLATION
-    * You'll need to have a Microsoft Azure account.
-    * ![Install Terrafom](https://learn.hashicorp.com/tutorials/terraform/install-cli) - Folow this guide to install Terraform in your local environment.
+* You'll need to have a Microsoft Azure account.
+* [Install Terrafom](https://learn.hashicorp.com/tutorials/terraform/install-cli) - Folow this guide to install Terraform in your local environment.
 
 # COMMANDS USED
 Inside the root directory run the following commands,
-    * terraform init
-    * terraform apply
+* terraform init
+* terraform apply
 
 # LIST OF RESOURCES CREATED ON SUCCESSFUL RUN
 ![terraform_resources](./images/38.png)
